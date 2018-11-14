@@ -3,8 +3,8 @@
         <div class="container">
             <div class="footer-main-wrapper">
                 <div class="row">
-                    <div class="col-2">
-                        <div class="col-md-4 col-sm-6 col-xs-6 sd380">
+                   
+                        <div class="col-md-4 sd380">
                             <div class="edugate-widget widget">
                                 <div class="title-widget theme-color">Shree Commerce Classes</div>
                                 <div class="content-widget"><p class="text-black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
@@ -12,7 +12,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6 sd380">
+
+                        <div class="col-md-4 sd380">
                             <div class="useful-link-widget widget">
                                 <div class="title-widget theme-color">USEFUL LINKS</div>
                                 <div class="content-widget">
@@ -28,7 +29,7 @@
                                              <div class="col-md-6 col-sm-6 col-xs-6">
                                                 <ul class="list-unstyled">
                                                     <li><i class="fa fa-angle-right"></i><a href="#">Result</a></li>
-                                                    <li><i class="fa fa-angle-right"></i><a href="#">Gallery</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a href="gallery.php">Gallery</a></li>
                                                     <li><i class="fa fa-angle-right"></i><a href="contact.php">Contact Us</a></li>
                                                 </ul>
                                             </div>
@@ -37,9 +38,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="col-md-4 col-sm-6 col-xs-6 sd380">
+
+                        <div class="col-md-4 sd380">
                             <div class="gallery-widget widget">
                                 <div class="title-widget theme-color">GALLERY</div>
                                 <div class="content-widget">
@@ -73,8 +73,7 @@
                                     <a href="#" class="view-more">View more&nbsp;<i class="fa fa-angle-double-right mls"></i></a></div>
                             </div>
                         </div>
-                        
-                    </div>
+
                 </div>
             </div>
             <div class="hyperlink">

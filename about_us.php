@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- LIBRARY FONT-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,300">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-svg/css/Glyphter.css">
     <!-- LIBRARY CSS-->
@@ -48,7 +48,7 @@
                         </li>
                         <li class="dropdown "><a href="index.html" class="main-menu">Result</a>
                         </li>
-                        <li class="dropdown "><a href="index.html" class="main-menu">Gallery</a>
+                        <li class="dropdown "><a href="gallery.php" class="main-menu">Gallery</a>
                         </li>
                         <li class="dropdown "><a href="contact.php" class="main-menu">Contact Us</a>
                         </li>

@@ -48,7 +48,7 @@
                         </li>
                         <li class="dropdown "><a href="index.html" class="main-menu">Result</a>
                         </li>
-                        <li class="dropdown "><a href="index.html" class="main-menu">Gallery</a>
+                        <li class="dropdown "><a href="gallery.php" class="main-menu">Gallery</a>
                         </li>
                         <li class="dropdown active"><a href="contact.php" class="main-menu">Contact Us</a>
                         </li>
@@ -67,19 +67,9 @@
                     <div class="container">
                         <div class="page-title-wrapper"><!--.page-title-content--><h2 class="captions">Contact</h2>
                             <ol class="breadcrumb">
-                                <li><a href="index-2.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li class="active"><a href="#">Contact</a></li>
                             </ol>
-                        </div>
-                    </div>
-                </div>
-                <div class="section nav-subscribe">
-                    <div class="container">
-                        <div class="nav-subscribe-wrapper">
-                            <div class="nav-subscribe-left"><p class="subscribe-text">Subscribe <b class="focus">Edugate</b> to learn new creative skill</p></div>
-                            <div class="nav-subscribe-right">
-                                <button class="btn btn-green btn-bold"><span>SUBSCRIBE NOW</span></button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,58 +77,63 @@
                     <div class="container">
                         <div class="contact-main-wrapper">
                             <div class="row contact-method">
-                                <div class="col-md-4">
-                                    <div class="method-item"><i class="fa fa-map-marker"></i>
+                                <div class="col-md-6">
+                                    <div class="method-item">
 
-                                        <p class="sub">COME TO</p>
+                                        <p class="sub">Thakurli Branch </p>
 
-                                        <div class="detail"><p>99 Barnard St - Suite 111</p>
-
-                                            <p>United Kingdom</p></div>
+                                        <div class="detail">
+                                            <p><i class="fa fa-map-marker"></i> Address: Shop No.3, Yashraj Complex, <br> near Manjunath College and Chamunda Garden Society,<br> Thakurli (East) 421201. </p>
+                                            <br>
+                                            <p><i class="fa fa-phone"></i> Mob: +98-9819453110 </p>
+                                            <br>
+                                             <p><i class="fa fa-envelope"></i> Email: sudhirbharate@yahoo.com </p>
+                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="method-item"><i class="fa fa-phone"></i>
+                                <div class="col-md-6">
+                                    <div class="method-item">
 
-                                        <p class="sub">CALL TO</p>
+                                        <p class="sub">Vikhroli Branch (Only for T.Y.B.Com.)</p>
 
-                                        <div class="detail"><p>Local: 1-800-123-hello</p>
-
-                                            <p>Mobile: 1-800-123-hello</p></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="method-item"><i class="fa fa-envelope"></i>
-
-                                        <p class="sub">CONNECT TO</p>
-
-                                        <div class="detail"><p>hello@edugate.com</p>
-
-                                            <p>www.edugate.com</p></div>
+                                        <div class="detail">
+                                            <p><i class="fa fa-map-marker"></i> Address: Shop No.4, Kannamwar Nagar,<br> Opp. Building No.181, Vikhroli (East), <br> Mumbai 400083. </p>
+                                            <br>
+                                            <p><i class="fa fa-phone"></i> Mob: +91-9323920163 / 9757241922 </p>
+                                            <br>
+                                             <p><i class="fa fa-envelope"></i> Email: rameshmore25@gmail.com </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <form class="bg-w-form contact-form">
+                        </div>
+                    </div>
+                </div>
+                <div class="section section-padding edu-ab">
+                    <div class="container">
+                        <div class="contact-main-wrapper">
+                            <form class="bg-w-form contact-form ">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="form-group"><label class="control-label form-label">NAME <span class="highlight">*</span></label><input type="text" placeholder="" class="form-control form-input"/><!--label.control-label.form-label.warning-label(for="") Warning for the above !--></div>
+                                        <div class="form-group"><label class="control-label form-label">NAME <span class="highlight">*</span></label><input type="text" placeholder="" class="form-control form-input" required="required" /><!--label.control-label.form-label.warning-label(for="") Warning for the above !--></div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"><label class="control-label form-label">EMAIL <span class="highlight">*</span></label><input type="text" placeholder="" class="form-control form-input"/><!--label.control-label.form-label.warning-label(for="")--></div>
+                                        <div class="form-group"><label class="control-label form-label">EMAIL <span class="highlight">*</span></label><input type="email"  required="required" placeholder="" class="form-control form-input"/><!--label.control-label.form-label.warning-label(for="")--></div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group"><label class="control-label form-label">PURPOSE</label><select class="form-control form-input selectbox">
                                             <option value="">Please Select</option>
-                                            <option value="">example 1</option>
-                                            <option value="">example 2</option>
-                                            <option value="">example 3</option>
+                                            <option value="">Demo Lecture</option>
+                                            <option value="">Enquiry</option>
+                                            <option value="">Complain</option>
+                                            <option value="">Suggestion</option>
                                         </select><!--label.control-label.form-label.warning-label(for="", hidden)--></div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"><label class="control-label form-label">SUBJECT</label><input type="text" placeholder="" class="form-control form-input"/><!--label.control-label.form-label.warning-label(for="", hidden)--></div>
+                                        <div class="form-group"><label class="control-label form-label">SUBJECT</label><input type="text"  required="required" placeholder="" class="form-control form-input"/><!--label.control-label.form-label.warning-label(for="", hidden)--></div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="contact-question form-group"><label class="control-label form-label">HOW CAN WE HELP? <span class="highlight">*</span></label><textarea class="form-control form-input"></textarea></div>
+                                        <div class="contact-question form-group"><label class="control-label form-label"> MESSAGE <span class="highlight">*</span></label><textarea  required="required" class="form-control form-input"></textarea></div>
                                     </div>
                                 </div>
                                 <div class="contact-submit">
@@ -148,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="map" class="section contact-map"></div>
+               
             </div>
         </div>
     </div>
@@ -164,22 +159,8 @@
             <div class="dots-loader"></div>
         </div>
     </div>
-    <a href="javascript:;" class="btn-theme-setting"><i class="fa fa-tint"></i></a>
 
-    <div class="content-theme-setting"><h2 class="title">setting color</h2>
-        <ul class="list-unstyled list-inline color-skins">
-            <li data-color="color-1"></li>
-            <li data-color="color-2"></li>
-            <li data-color="color-3"></li>
-            <li data-color="color-4"></li>
-            <li data-color="color-5"></li>
-            <li data-color="color-6"></li>
-            <li data-color="color-7"></li>
-            <li data-color="color-8"></li>
-            <li data-color="color-9"></li>
-            <li data-color="color-10"></li>
-        </ul>
-    </div>
+    
 </div>
 <!-- LOADING--><!-- JAVASCRIPT LIBS-->
 <script>if ((Cookies.get('color-skin') != undefined) && (Cookies.get('color-skin') != 'color-1')) {

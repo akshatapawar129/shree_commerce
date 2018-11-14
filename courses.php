@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- LIBRARY FONT-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,300">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-svg/css/Glyphter.css">
     <!-- LIBRARY CSS-->
@@ -25,8 +25,6 @@
     } else if ((Cookies.get('color-skin') == undefined) || (Cookies.get('color-skin') == 'color-1')) {
         $('#color-skins').attr('href', 'assets/css/color-1.css');
     }
-
-
     </script>
 </head>
 <body><!-- HEADER-->
@@ -48,7 +46,7 @@
                         </li>
                         <li class="dropdown "><a href="index.html" class="main-menu">Result</a>
                         </li>
-                        <li class="dropdown "><a href="index.html" class="main-menu">Gallery</a>
+                        <li class="dropdown "><a href="gallery.php" class="main-menu">Gallery</a>
                         </li>
                         <li class="dropdown "><a href="contact.php" class="main-menu">Contact Us</a>
                         </li>
@@ -114,7 +112,7 @@
                                         <div class="col-style">
                                             <div class="edugate-layout-2">
                                                 <div class="edugate-layout-2-wrapper">
-                                                    <div class="edugate-content"><a href="courses-detail.html" class="title">M.COM (PART - I)</a>
+                                                    <div class="edugate-content"><a class="title">M.COM (PART - I)</a>
                                                         <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
                                                     </div>
                                                     <div class="edugate-image"><img src="assets/images/courses/courses-1.jpg" alt="" class="img-responsive"/></div>
@@ -125,7 +123,7 @@
                                         <div class="col-style">
                                             <div class="edugate-layout-2">
                                                 <div class="edugate-layout-2-wrapper">
-                                                    <div class="edugate-content"><a href="courses-detail.html" class="title">M.COM (PART - II)</a>
+                                                    <div class="edugate-content"><a class="title">M.COM (PART - II)</a>
                                                         <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
                                                     </div>
                                                     <div class="edugate-image"><img src="assets/images/categories/categories-4.jpg" alt="" class="img-responsive"/></div>
